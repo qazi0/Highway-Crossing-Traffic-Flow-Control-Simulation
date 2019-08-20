@@ -1,6 +1,6 @@
 
 #include <TM4C123GH6PM.h>
-#include <TM4C123GH6PMX.h>	 //TM4C123GH6PMX.h refers to header file with ports defined as 
+#include <TM4C123GH6PMX.h>	 /*TM4C123GH6PMX.h refers to header file with ports defined as 
 			         volatile unsigned ints (e.g GPIO_PORTF_DATA_R) and not the pointer syntax (e.g GPIOF->DATA)  */
 
 void SysTick_Init(void);       // initialize SysTick Timer                  
